@@ -1043,4 +1043,4 @@ async def on_message(message):
     if (message.content.startswith('!stop') and message.channel.id == ID):
         exit(0)
 
-client.run("", bot=False) // include your token
+client.run("", bot=False) # include your token
