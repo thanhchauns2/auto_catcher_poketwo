@@ -1,10 +1,13 @@
+# Include the ID channel, your token, then run
+# Use syntax !start to start, !stop to terminate
+
 import discord
 import random
 import time
 
 from discord.http import HTTPClient 
 
-ID = 928926662991687692 #Please include channel id #pkms
+ID = #Please include channel id #pkms
 
 list_pkms = ['Staravia',
 'Foongus',
@@ -1040,4 +1043,4 @@ async def on_message(message):
     if (message.content.startswith('!stop') and message.channel.id == ID):
         exit(0)
 
-client.run("OTIwNjAzODkyMTQ2OTIxNDgz.Yd6xmw.YUzY5mblzQe7qGQqkmPwLWgdyUg", bot=False)
+client.run("", bot=False) // include your token
