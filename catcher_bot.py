@@ -1,3 +1,5 @@
+# This is a simple bot that help you catch EVERY pokemon from Poketwo in a single specific channel.
+# If you use this, use it at your own risk, I'm not responsible for any thing if you're caught or banned.
 # Include the ID channel, your token, then run
 # Use syntax !start to start, !stop to terminate
 
